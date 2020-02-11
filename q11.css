@@ -1,0 +1,99 @@
+body{
+    background-color: dimgrey;
+}
+.div1{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.top{
+    background-color: gray;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+nav{
+    background-color: black;
+    height: 40px;
+    padding-top: 18px;
+
+}
+h1{
+    color: white;
+
+}
+a{
+    color: white;
+    margin-left: 25px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mid{
+    background-color: white;
+    height: 980px;
+
+}
+.mid1{
+    width: 960px;
+    height: 360px;
+    background-color: gray;
+    margin-left: 100px;
+
+}
+h2 {
+    text-align: center;
+    padding-top: 150px;
+
+}
+.mid2{
+    margin-top: 20px;
+    width: 938px;
+    height: 50px;
+    background-color: lightgrey;
+    margin-left: 100px;
+    padding: 5px 12px 12px 12px;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 153px;
+    border-color: lightgrey;
+    border-width: 2px;
+}
+.mid3{
+    margin-left: 100px;
+}
+.flex-container {
+    display: flex;
+    background-color: white;
+}
+
+.flex-container > div {
+    background-color: gray;
+    height: 250px;
+    width: 180px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.p1{
+    color: black;
+    margin-top: 248px;
+    background-color: lightgrey;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    width: 220px;
+    margin-left: -20px;
+}
+.f1{
+    background-color: grey;
+    height: 40px;
+    padding-left: 109px;
+    padding-top: 18px;
+    color: white;
+    font-weight: bold;
+}

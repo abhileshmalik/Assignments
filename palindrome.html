@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js2</title>
+</head>
+<script>
+    function cal() {
+        var s=document.getElementById('s').value;
+        var s2 = s.split("").reverse().join("");
+        if(s==s2)
+        {
+            alert("String is palindrome");
+        }
+        else {
+            alert("String is not palindrome");
+        }
+    }
+</script>
+<body>
+    <label>Enter a string</label>
+    <input id="s" type="text">
+    <br><br>
+    <button type="submit" onclick="cal()">Check</button>
+</body>
+</html>

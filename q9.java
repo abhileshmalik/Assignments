@@ -26,6 +26,8 @@ public class q9 extends Thread{
             t1.start();
             t2.start();
             count.await();
+            //System.out.println(Thread.currentThread().getName() +
+                    " has finished");
         }
 
 }
